@@ -75,7 +75,7 @@ function miFuncion1_8() {
     switch (op) {
         case "+":
             // var resul = valor1+valor2; // se concatena de esta forma
-            var resul = Number(valor1)+Number(valor2);
+            var resul = Number(valor1)+Number(valor2); // hay que darle formato de número o int
             // var resul = parseInt(valor1)+parseInt(valor2);
             var msn=("El resultado de sumar " + valor1 + " + " + valor2 + " = "+resul);
             document.getElementById('respuesta').value=msn;

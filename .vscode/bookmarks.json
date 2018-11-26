@@ -1,0 +1,402 @@
+[
+	{
+		"path": "$ROOTPATH$\\Tema1\\main1.js",
+		"bookmarks": [
+			{
+				"line": 0,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 5,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 10,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 15,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 32,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 68,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 108,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 119,
+				"column": 26,
+				"label": ""
+			},
+			{
+				"line": 127,
+				"column": 26,
+				"label": ""
+			},
+			{
+				"line": 137,
+				"column": 26,
+				"label": ""
+			},
+			{
+				"line": 165,
+				"column": 26,
+				"label": ""
+			},
+			{
+				"line": 191,
+				"column": 26,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema1\\intro.html",
+		"bookmarks": [
+			{
+				"line": 28,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 33,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 43,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 48,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 55,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 62,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 70,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 92,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 117,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 124,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 131,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 143,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 160,
+				"column": 16,
+				"label": ""
+			},
+			{
+				"line": 173,
+				"column": 16,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\array.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 37,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 44,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 51,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 58,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 69,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 77,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 86,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 94,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\date.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\expresiones_regulares.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 38,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 45,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\function.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_array.js",
+		"bookmarks": [
+			{
+				"line": 0,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 15,
+				"column": 26,
+				"label": ""
+			},
+			{
+				"line": 38,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 52,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 66,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 80,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 100,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 109,
+				"column": 28,
+				"label": ""
+			},
+			{
+				"line": 126,
+				"column": 28,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_date.js",
+		"bookmarks": [
+			{
+				"line": 1,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_expresiones_regulares.js",
+		"bookmarks": [
+			{
+				"line": 0,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 10,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 18,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_function.js",
+		"bookmarks": [
+			{
+				"line": 10,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_math.js",
+		"bookmarks": [
+			{
+				"line": 0,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 28,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_object.js",
+		"bookmarks": [
+			{
+				"line": 21,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\main_string.js",
+		"bookmarks": [
+			{
+				"line": 0,
+				"column": 27,
+				"label": ""
+			},
+			{
+				"line": 10,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\math.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 37,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\object.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema2\\string.html",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 38,
+				"column": 12,
+				"label": ""
+			}
+		]
+	}
+]

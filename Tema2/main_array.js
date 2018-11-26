@@ -107,7 +107,7 @@ function miFuncion2_1_8() {
     document.getElementById('e8').innerHTML+="El mayor es "+numeros[numeros.length-1]; //para tomar el último número
 }
 
-function miFuncion2_1_10() {
+function miFuncion2_1_9() {
     var numeros = [43,0,34,4,743,-45,3,5,8,13,8,344,0,23,3,1233,2,5,734,3,2234,5,1];
     //método de la burbuja
     for(var i=1;i<numeros.length;i++){
