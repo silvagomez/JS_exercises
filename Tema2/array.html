@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main_array.js"></script>
+    <style>
+        body{
+            margin: 0 auto;;
+            width: 70%;
+            font-family: sans-serif;
+            direction: ltr;
+            line-height: 1.5;
+            
+            text-align: justify;
+        }
+        main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 40px;
+            }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Funciones Tema 2</h1>
+        <h3>2.1 ARRAYS </h3>
+        <p>
+            2.1.2.- Definir el siguiente array: var dias=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]; A continuación diseñar un progama que añada los días sábado y domingo al array días y lo visualice.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_2()">
+        <br>
+        <p id="e1"></p>
+        <br>
+        <p>
+            2.1.3.1. y 3.2.- Definir el siguiente array: var dias=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]; A continuación diseñar un progama que genere otros dos arrays, uno que contenga los días laborables y otro que contenga los días festivos. Visualizar los tres arrays.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_3()">
+        <br>
+        <p id="e2"></p>
+        <br>
+        <p>
+            2.1.4.- Definir el siguiente array: var alumnos=['Sanchez',  'Lopez', 'Cuesta',  'Alvarez',  'Zambrano', 'Sevilla']; A continuación ordenar el array alfabéticamente y visualizarlo. Después ordenar el array en orden inverso y visualizarlo
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_4()">
+        <br>
+        <p id="e4"></p>
+        <br>
+        <p>
+            2.1.5.- Definir el siguiente array, var numeros=[4, 0, 3, 4, 7, 3, 5, 8, 1, 8, 8, 0, 2, 3, 1, 2, 5, 7, 3, 2, 5, 1]; Generar un nuevo array con los mismos números eliminando duplicados y mostrarlo ordenado. Ej: 0, 1, 2, 3, 4, 5, 7, 8
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_5()">
+        <br>
+        <p id="e5"></p>
+        <br>
+        <p>
+            2.1.6 Definir el siguiente array. var numeros=[4, 0, 3, 4, 7, 3, 5, 8, 1, 8, 8, 0, 2, 3, 1, 2, 5, 7, 3, 2, 5, 1]; A continuación mostrar por pantalla todas las posiciones donde aparece el numero 3 sin recorrer todo el array. Ej:<br>
+            Posicion del 3: 2 <br>
+            Posicion del 3: 5 <br>
+            Posicion del 3: 13 <br>
+            Posicion del 3: 18
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_6()">
+        <br>
+        <p id="e6"></p>
+        <br>
+        <p>
+            2.1.7.- Definir el siguiente array. var numeros=[4, 0, 3, 4, 7, 3, 5, 8, 1, 8, 8, 0, 2, 3, 1, 2, 5, 7, 3, 2, 5, 1]; A continuación generar otro array con todos los números pares ordenados seguidos de todos los impares también ordenados.<br>
+            Ej: 0, 0, 2, 2, 2, 4, 4, 8, 8, 8, 1, 1, 1, 3, 3, 3, 3, 5, 5, 5, 7, 7
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_7()">
+        <br>
+        <p id="e7"></p>
+        <br>
+        <p>
+            2.1.8.- Definir el siguiente array. var numeros = [43, 0, 34, 4, 743, -45, 3, 5, 8, 13, 8, 344, 0, 23, 3, 1233, 2, 5, 734, 3, 2234, 5, 1]; A continuación mostrar por pantalla el valor menor y el mayor del array. Ej:<br>
+            El mayor es 2234<br>
+            El menor es -45
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_8()">
+        <br>
+        <p id="e8"></p>
+        <br>
+        <p>
+            2.1.9.- Definir el siguiente array. var numeros = [43, 0, 34, 4, 743, -45, 3, 5, 8, 13, 8, 344, 0, 23, 3, 1233, 2, 5, 734, 3, 2234, 5, 1]; A continuación ordenarlo aplicando el método de la burbuja y visualizarlo. Ej:<br>
+            Array Ordenado: -45, 0, 0, 1, 2, 3, 3, 3, 4, 5, 5, 5, 8, 8, 13, 23, 34, 43, 344, 734, 743, 1233, 2234
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_9()">
+        <br>
+        <p id="e9"></p>
+        <br>
+        <p>
+            2.1.10.- Definir el siguiente array. var numeros = [43, 0, 34, 4, 743, -45, 3, 5, 8, 13, 8, 344, 0, 23, 3, 1233, 2, 5, 734, 3, 2234, 5, 1]; A continuación ordenarlo buscando el menor, añadiéndolo al array ordenado y eliminándolo del original hasta que el array original quede vacio. Ej:<br>
+            Array Ordenado: -45, 0, 0, 1, 2, 3, 3, 3, 4, 5, 5, 5, 8, 8, 13, 23, 34, 43, 344, 734, 743, 1233, 2234 <br>
+            NO SOLUCIONADO
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_1_10()">
+        <br>
+        <p id="e9"></p>
+        <br>
+    </main>
+</body>
+</html>

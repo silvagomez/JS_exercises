@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main_expresiones_regulares.js"></script>
+    <style>
+        body{
+            margin: 0 auto;;
+            width: 70%;
+            font-family: sans-serif;
+            direction: ltr;
+            line-height: 1.5;
+            
+            text-align: justify;
+        }
+        main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 40px;
+            }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Funciones Tema 2</h1>
+        <h3>2.7 EXPRESIONES REGULARES</h3>
+        <p>
+            2.7.2.- En un documento html colocar un botón y una caja de texto. Al Pulsar el botón se lanzara una función javascript que mostrará en una ventana emergente si el texto escrito en la caja es una fecha valida. <br>
+            Ejemplos de fechas validas 1-1-2001, 1/1/2001, 05-34/1234
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_7_2()">
+        <br>
+        <p id="e1"></p>
+        <br>
+        <p>
+            2.7.3.- Crear una cadena con la siguiente frase: “Si no te gusta algo, cambialo. Si no lo puedes cambiar, cambia tu actitud.” A continuación mostrar por pantalla la original y otra cadena donde se hayan sustituido las ocurrencias de “camb” por “limp”, utilizando una expresión regular.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_7_3()">
+        <br>
+        <p id="e2"></p>
+        <br>
+        <p>
+            2.7.4.- Crear una cadena con la siguiente frase: “la cambia todas las palabras que empiecen por l por la cadena 123, los lados de los cuadrados son lineas iguales.” A continuación mostrar por pantalla la original y otra cadena donde se hayan sustituido las palabras que empiezan por la letra l “ele”, por la cadena “123”, utilizando una expresión regular. <br>Ej:  la cambia todas las palabras que empiecen por l (ele) por la cadena 123, los lados de los cuadrados son lineas iguales 123 cambia todas 123 palabras que empiecen por 123 (ele) por 123 cadena 123, 123 123 de 123 cuadrados son 123 iguales
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion2_7_4()">
+        <br>
+        <p id="e3"></p>
+    </main>
+</body>
+</html>
