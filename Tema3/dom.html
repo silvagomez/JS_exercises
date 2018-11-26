@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- importante el defer para ejecución en paralelo -->
+    <script src="main_dom.js" defer></script> 
+    <style>
+        body {
+            margin: 0 auto;
+            ;
+            width: 70%;
+            font-family: sans-serif;
+            direction: ltr;
+            line-height: 1.5;
+
+            text-align: justify;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Modelo del objeto documento Tema 3</h1>
+        <h3>3. DOM </h3>
+        <p>
+            3.1.-Diseña una página html con dos botones, uno Abrir y otro Cerrar. Cada vez que pulsemos sobre el botón Abrir se abrirá una nueva pestaña o ventana con la página www.google.es. Cada vez que pulsemos sobre el botón cerrar se cerrara la última ventana que hemos abierto. Es recomendable usar un array para guardar las referencias de las páginas. 
+        </p>
+        <input type="submit" value="Push me!" onclick="miFuncion3_1a()">
+        <br>
+        <input type="submit" value="Close me!" onclick="miFuncion3_1b()">
+        <br>
+        <p>
+            3.2.- Diseña una página html con dos botones, uno Abrir y otro Cerrar. El botón cerrar se ocultara nada más cargar javascript. Cuando pulsemos el botón Abrir se abrirá una nueva ventana o pestaña, se ocultara el botón abrir y se mostrara el botón Cerrar. Cuando pulsemos el botón Cerrar se cerrara la ventana abierta, se ocultara el botón cerrar y se mostrara el botón Abrir.
+        </p>
+        <input type="submit" value="Push me!" id="abrir1" onclick="miFuncion3_2a()">
+        <br>
+        <input type="submit" value="Close me!" id="cerrar1" onclick="miFuncion3_2b()">
+        <br>
+        <p>
+            3.2.1- Diseña una página html con un botón Abrir. Cuando pulsemos el botón Abrir se abrirá una nueva ventana o pestaña, y el botón pasara a tener el texto “Cerrar”. Cuando pulsemos el botón Cerrar se cerrara la ventana abierta, y el botón pasará a tener el texto  “Abrir”.
+        </p>
+        <input type="submit" value="Push me!" id="abro_cierro" onclick="miFuncion3_2_1()">
+        <br> 
+        <p>
+            3.3.- Abrir una nueva ventana o pestaña con la pagina www.elotrolado.net a continuación se mostrara una ventana de dialogo preguntando si se quiere cerrar esa ventana. Si se pulsa aceptar se cerrara la ventana.
+        </p> 
+        <input type="submit" value="Push me!" id="abrir3" onclick="miFuncion3_3()">
+        <br>
+        <p>
+            3.4.-Crear una página que abra una ventana de 400 x 200 pixeles y la mueva a posiciones aleatorias de la ventana 5 veces con intervalos de 1 segundo. Cerrar la nueva ventana una vez ha terminado los movimientos. 
+        </p>
+        <p>
+            3.5.-Crear una página con un div que cambie de tamaño simulando una barra de progreso. Mostrando el porcentaje de progreso en la propia barra. Desde 0 hasta 100 % 
+            
+        </p>       
+       <p>
+           3.6.-Crear una página que abra dos ventanas, una sin barra de direcciones ni barra de herramientas y la otra de 800 x 500 pixeles, sin barra de estado y sin poder cambiar el tamaño de la ventana.
+            
+       </p>
+        <p>
+            3.7.-Crear una página que pregunte si se quiere abrir una nueva pestaña. Si pulsamos aceptar deberá preguntar que página queremos abrir y después intentar mostrarla. 
+
+        </p>    
+        <p>
+            3.8.-Crear una página que muestre al menos un botón, una caja de texto y un iframe. Al pulsar el botón se cargara en el iframe la dirección URL que esté escrita en la caja de texto. 
+
+        </p>    
+        <p>
+            3.9.-Crear un documento html sin etiquetas con solo una línea de texto. Utilizando el inspector de elementos y el firebug en Firefox comprobar que etiquetas html se han generado automáticamente. 
+
+        </p>    
+        <p>
+            3.10.-Crear una página con dos imágenes y un botón. Al pulsar el botón deberán mostrarse 5 ventanas alert mostrando el valor del atributo src de la primera imagen accediendo al elemento de 5 maneras distintas. 
+
+        </p>    
+        <p>
+            3.11.- Crear una página con 4 párrafos un desplegable y un botón. El desplegable deberá tener los elementos: Pequeño, mediano y grande. Al pulsar el botón, los párrafos deben cambiar su tamaño de letra en función de la opción elegida en el desplegable. 
+
+        </p>    
+        <p>
+            3.12.- Crear una página con 4 párrafos y dos desplegables. El primer desplegable deberá tener los elementos: Pequeño, mediano y grande. Al cambiar el valor del desplegable, los párrafos deben cambiar su tamaño de letra en función de la opción elegida en el desplegable. El segundo desplegable deberá tener los elementos: Rojo, Verde y Azul y Negro. Al cambiar el valor del desplegable, los párrafos deben cambiar su color en función de la opción elegida en el desplegable. 
+
+        </p>    
+        <p>
+            3.13.- Partiendo del ejercicio anterior, añade 2 radiobuttons con los rótulos Cambiar Color y Cambiar Tamaño. Por defecto aparecerá marcado el Color y se mostrará el texto “Seleccionar color” y su desplegable del ejercicio anterior. Al  pulsar sobre los radiobuttons se cambiar el texto por “Seleccionar Tamaño” y se mostrará su desplegable manteniendo toda la funcionalidad. 
+            
+        </p>
+        
+       <p>
+           3.14.-Crear una página con 2 botones y una lista no ordenada vacía. Al pulsar sobre el primer botón se añadirá un elemento a todas las listas no ordenadas que haya en la página. Al pulsar sobre el segundo botón se copiara la primera lista y se colocara inmediatamente después de la misma. 
+           
+       </p>
+        <p>
+            3.15.-Modificar la página anterior para que al pulsar el segundo botón solo se copien el primer y último elemento de la primera lista. 
+            
+        </p>
+        <p>
+            3.16.- Crear una página con 4 párrafos vacíos, una caja de texto y un botón. Al pulsar cobre el botón se escribirá en cada uno de los párrafos su número de párrafo con el color que se haya escrito en la caja de texto. 
+            
+        </p>
+        <p>
+            3.17.- Crear una página con una caja de texto, un botón y una lista no ordenada vacía. Al pulsar el botón se añadirá el texto escrito en la caja como último elemento de la lista. 
+            
+        </p>
+        <p>
+            3.18.-Crear una página con una caja de texto, un botón y una tabla vacía con borde. Al pulsar el botón se añadirá una línea a la tabla con 4 celdas, una con el texto de la caja, la siguiente con un botón “copiar Encima” que copiara la línea en la posición en la que está, la siguiente con un botón “Copiar al final”, que copiará la línea al final de la tabla y la última con un botón borrar que borrará la línea completa. 
+            
+        </p>
+        <p>
+            3.19.-Modificar el ejercicio anterior añadiendo un botón modificar y un comboBox ocultos. Al añadir una línea se visualizaran. El comboBox tendrá los números de filas de la tabla y se actualizará desde los botones añadir línea, copiar encima, copiar al final y borrar. Al pulsar sobre el botón modificar se cambiara el texto de la línea seleccionada en el combo. Además si se borran todas las líneas, el nuevo botón y el combo no se visualizarán. Por último deberá haber un botón “cambiar primero y ultimo” que cambiará la primera línea
+        </p>
+    </main>
+</body>
+
+</html>
