@@ -526,6 +526,51 @@
 				"line": 40,
 				"column": 25,
 				"label": ""
+			},
+			{
+				"line": 53,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 72,
+				"column": 25,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\Tema3\\index_dom.html",
+		"bookmarks": [
+			{
+				"line": 34,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 41,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 48,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 53,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 58,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 64,
+				"column": 12,
+				"label": ""
 			}
 		]
 	}
