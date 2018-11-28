@@ -8,7 +8,7 @@ function miFuncion3_1b() {
         p.close(); //cerramos la pestaña
     }
 }
-//
+//--//
 var pestanha2;
 var abrir1=document.getElementById('abrir1');
 var cerrar1=document.getElementById("cerrar1");
@@ -24,7 +24,7 @@ function miFuncion3_2b() {
     abrir1.style.visibility="visible";
     cerrar1.style.visibility="hidden";
 }
-//
+//--//
 var pestanha2_1;
 var abro_cierro = document.getElementById('abro_cierro');
 console.log(abro_cierro); // para ver que en la variable abro_cierro guardo el inpunt
@@ -46,7 +46,7 @@ function miFuncion3_3() {
         pestanha3.close();
     }
 }
-//
+//--//
 var contador3_4=0;
 var ventana3_4;
 var intervalo3_4;
@@ -64,7 +64,7 @@ function muevete() {
         // se puede usar moveTo(x,y) -> mueve a una coordenada específica, a veces no se por que sólo se desplaza en su eje x ó no 
     }
 }
-//
+//--//
 var intervalo3_5;
 var cargador3_5=document.getElementById('cargador');
 var porcentaje3_5=0;
@@ -95,14 +95,14 @@ function cargando() {
 		clearInterval(intervalo3_5); // cuando llega a 100 se detiene 
 	}
 }
-//
+//--//
 var ventana3_6a;
 var ventana3_6b;
 function miFuncion3_6() {
     ventana3_6a = window.open("", "", "width=200, height=200,toolbar=no,location=0,");
     ventana3_6b = window.open("https://www.silvagomez.com", "", "width=800, height=500, status=no, resizable=no");
 }
-//
+//--//
 function miFuncion3_7() {
     var respuesta3_7=confirm("Desea abandonar este sitio");
     if(respuesta3_7==true){
@@ -110,7 +110,7 @@ function miFuncion3_7() {
         var ventana3_7=(window.open('http://www.'+url3_7,'_self'));
     }
 }
-//
+//--//
 var iframe3_8=document.getElementById('ruta3_8'); // recogo en una variable todo el iframe
 iframe3_8.style.display="none";
 function miFuncion3_8() {
@@ -119,11 +119,11 @@ function miFuncion3_8() {
     // console.log(iframe3_8);
     iframe3_8.src="http://www."+url3_8;
 }
-//
+//--//
 function miFuncion3_9() {
     
 }
-//
+//--//
 function miFuncion3_10() {
     alert(document.getElementById('Hyeri1').src); // a través del id que es único
     alert(document.getElementsByName('Hyeri2')[0].src); // a través de name, pueden haber varias etiquetas con el mismo name por eso indicamos la posición que buscamos en el array
@@ -131,11 +131,11 @@ function miFuncion3_10() {
     alert(document.getElementsByTagName('img')[0].src); // a través de tagName, pueden haber varias etiquetas del mismo tipo por eso indicamos la posición que buscamos en el array
     alert(document.images[0].src); // a través de todas las images indicando su posición en el array
 }
-//
+//--//
 function miFuncion3_11() {
     var tamanho=document.getElementById('tamanho3_11').value; // guardo la opción elegida
     var parrafo3_11=document.getElementById('parrafo3_11'); //guardo todo el <p>        
-    switch (tamanho) {
+    switch (tamanho) { // para modificar el tamaño de la tipografia
         case '':
         alert("Selecciona una opción para modificar el párrafo");
             break;
@@ -152,11 +152,12 @@ function miFuncion3_11() {
             break;
     }
 }
+//--//
 function miFuncion3_12() {
     var tamanho=document.getElementById('tamanho3_12').value; // guardo la opción elegida de tamaño
     var color=document.getElementById('color3_12').value; // guardo la opción elegida de color
     var parrafo3_12=document.getElementById('parrafo3_12'); //guardo todo el <p>        
-    switch (tamanho) {
+    switch (tamanho) { // para modificar el tamaño de la tipografia
         case '':
             alert("Selecciona un tamaño para el párrafo");
             break;
@@ -172,14 +173,45 @@ function miFuncion3_12() {
         default:
             break;
     }
-    switch (color) {
+    switch (color) { // para modificar el color de la tipografia
         case '':
             alert("Selecciona un color para el párrafo");
             break;
         case 'rojo':
             parrafo3_12.style.color='red'
-        break;
+            break;
+        case 'verde':
+            parrafo3_12.style.color='green'
+            break;
+        case 'azul':
+            parrafo3_12.style.color='blue'
+            break;
+        case 'negro':
+            parrafo3_12.style.color='black'
+            break;
         default:
             break;
     }
+}
+//--//
+var tamanho3_13 = document.getElementById('tamanho3_13');
+var color3_13 = document.getElementById('color3_13');
+color3_13.style.display="none";
+function miFuncion3_13(valor) {
+    if (valor==1) {
+        tamanho3_13.style.display="block";
+        color3_13.style.display="none";
+    }
+    if (valor==0) {
+        tamanho3_13.style.display="none";
+        color3_13.style.display="block";
+    }
+}
+function tamanhoF3_13() {
+    var tamanho=document.getElementById('tamanho3_13').value; // guardo la opción elegida de tamaño
+    document.getElementById('parrafo3_13').style.fontSize=tamanho; //guardo todo el <p>
+}
+function colorF3_13() {
+    var color=document.getElementById('color3_13').value; // guardo la opción elegida de color
+    document.getElementById('parrafo3_13').style.color=color;
 }

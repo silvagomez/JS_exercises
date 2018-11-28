@@ -105,6 +105,7 @@
         <p>
             3.11.- Crear una página con 4 párrafos un desplegable y un botón. El desplegable deberá tener los elementos: Pequeño, mediano y grande. Al pulsar el botón, los párrafos deben cambiar su tamaño de letra en función de la opción elegida en el desplegable. 
         </p>
+        <label>Seleccione un tamaño</label>
         <select id="tamanho3_11">
             <option value="">Seleccione una opción</option>
             <option value="pequeño">Pequeño</option>
@@ -119,6 +120,7 @@
         <p>
             3.12.- Crear una página con 4 párrafos y dos desplegables. El primer desplegable deberá tener los elementos: Pequeño, mediano y grande. Al cambiar el valor del desplegable, los párrafos deben cambiar su tamaño de letra en función de la opción elegida en el desplegable. El segundo desplegable deberá tener los elementos: Rojo, Verde y Azul y Negro. Al cambiar el valor del desplegable, los párrafos deben cambiar su color en función de la opción elegida en el desplegable. 
         </p>
+        <label>Seleccione un tamaño</label>
         <select id="tamanho3_12">
             <option value="">Seleccione una opción</option>
             <option value="pequeño">Pequeño</option>
@@ -126,6 +128,7 @@
             <option value="grande">Grande</option>
         </select>
         <br>
+        <label>Seleccione un color</label>
         <select id="color3_12">
             <option value="">Seleccione una opción</option>
             <option value="rojo">Rojo</option>
@@ -140,8 +143,28 @@
         <p>
             3.13.- Partiendo del ejercicio anterior, añade 2 radiobuttons con los rótulos Cambiar Color y Cambiar Tamaño. Por defecto aparecerá marcado el Color y se mostrará el texto “Seleccionar color” y su desplegable del ejercicio anterior. Al  pulsar sobre los radiobuttons se cambiar el texto por “Seleccionar Tamaño” y se mostrará su desplegable manteniendo toda la funcionalidad. 
         </p>
-        
-       <p>
+        <div>
+            <label><input type="radio" name="radio3_13" onclick="miFuncion3_13(1)" checked> Cambiar tamaño</label>
+            <label><input type="radio" name="radio3_13" onclick="miFuncion3_13(0)"> Cambiar color</label>
+        </div>
+        <br>
+        <select id="tamanho3_13" onclick="tamanhoF3_13()">
+            <option value="">Seleccione un tamaño</option>
+            <option value="0.8em">Pequeño</option>
+            <option value="1em">Mediano</option>
+            <option value="1.2em">Grande</option>
+        </select>
+        <select id="color3_13" onclick="colorF3_13()">
+            <option value="">Seleccione un color</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="black">Negro</option>
+        </select>
+        <p style="columns:4; text-align: justify" id="parrafo3_13">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed a incidunt aliquam fuga, ut eaque rerum est quasi placeat, qui ipsam harum possimus nulla corrupti iure. Accusantium odio ex magni, voluptatem numquam illo nesciunt sed officiis iure. Totam nam natus accusantium quibusdam minus molestias nisi, temporibus dicta quidem ipsa ab eum nesciunt libero commodi? Laudantium, rerum quis eligendi dolore et culpa cum dolorem adipisci, eaque deleniti nemo doloremque odit dolores quasi? Cum voluptas iste recusandae qui rerum magni aspernatur optio, corrupti officiis, ipsam atque expedita consequatur suscipit libero. Ullam aliquid natus perspiciatis? Voluptatibus delectus ratione tempore esse quae, id nemo qui iure laborum mollitia error reprehenderit rem praesentium vitae illum dicta repudiandae unde temporibus labore magni nisi odio. Blanditiis fuga odio modi, repudiandae, harum nemo cupiditate cum iste nesciunt ipsum cumque, facilis accusamus! Esse error provident eaque quas ea quasi magni cumque! Cum totam provident quia aliquid debitis voluptatum amet quisquam minus ad nulla. Voluptatem quis aliquid inventore sed architecto corrupti vero incidunt sapiente, ratione rem, temporibus debitis! Excepturi asperiores voluptatibus maiores neque dolor, porro, animi natus assumenda eaque eos rerum impedit velit debitis ex magnam eligendi numquam, dolorum magni molestiae voluptatem eius. Aliquid ad ut delectus dolor esse. 
+        <p>
+        <p>
            3.14.-Crear una página con 2 botones y una lista no ordenada vacía. Al pulsar sobre el primer botón se añadirá un elemento a todas las listas no ordenadas que haya en la página. Al pulsar sobre el segundo botón se copiara la primera lista y se colocara inmediatamente después de la misma. 
            
        </p>
