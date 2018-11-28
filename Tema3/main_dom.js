@@ -131,3 +131,55 @@ function miFuncion3_10() {
     alert(document.getElementsByTagName('img')[0].src); // a través de tagName, pueden haber varias etiquetas del mismo tipo por eso indicamos la posición que buscamos en el array
     alert(document.images[0].src); // a través de todas las images indicando su posición en el array
 }
+//
+function miFuncion3_11() {
+    var tamanho=document.getElementById('tamanho3_11').value; // guardo la opción elegida
+    var parrafo3_11=document.getElementById('parrafo3_11'); //guardo todo el <p>        
+    switch (tamanho) {
+        case '':
+        alert("Selecciona una opción para modificar el párrafo");
+            break;
+        case 'pequeño':
+        parrafo3_11.style.fontSize=0.8+"em";
+            break;
+        case 'mediano':
+        parrafo3_11.style.fontSize=1+"em";
+        break;
+        case 'grande':
+        parrafo3_11.style.fontSize=1.2+"em";
+        break;
+        default:
+            break;
+    }
+}
+function miFuncion3_12() {
+    var tamanho=document.getElementById('tamanho3_12').value; // guardo la opción elegida de tamaño
+    var color=document.getElementById('color3_12').value; // guardo la opción elegida de color
+    var parrafo3_12=document.getElementById('parrafo3_12'); //guardo todo el <p>        
+    switch (tamanho) {
+        case '':
+            alert("Selecciona un tamaño para el párrafo");
+            break;
+        case 'pequeño':
+            parrafo3_12.style.fontSize=0.8+"em";
+            break;
+        case 'mediano':
+            parrafo3_12.style.fontSize=1+"em";
+            break;
+        case 'grande':
+            parrafo3_12.style.fontSize=1.2+"em";
+            break;
+        default:
+            break;
+    }
+    switch (color) {
+        case '':
+            alert("Selecciona un color para el párrafo");
+            break;
+        case 'rojo':
+            parrafo3_12.style.color='red'
+        break;
+        default:
+            break;
+    }
+}

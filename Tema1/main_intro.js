@@ -34,7 +34,7 @@ function miFuncion1_7() {
     var valor1 = document.getElementById('num2').value;
     var valor2 = document.getElementById('num3').value;
 
-    var op = document.getElementById('operacion').value
+    var op = document.getElementById('operacion').value;
 
     switch (op) {
         case "+":

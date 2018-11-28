@@ -561,6 +561,11 @@
 				"line": 126,
 				"column": 26,
 				"label": ""
+			},
+			{
+				"line": 134,
+				"column": 26,
+				"label": ""
 			}
 		]
 	},
@@ -619,6 +624,16 @@
 			},
 			{
 				"line": 95,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 105,
+				"column": 12,
+				"label": ""
+			},
+			{
+				"line": 140,
 				"column": 12,
 				"label": ""
 			}
