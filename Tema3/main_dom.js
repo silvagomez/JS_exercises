@@ -4,7 +4,7 @@ function miFuncion3_1a() {
 }
 function miFuncion3_1b() {
     if(pestanha.length>0){ //pestaña es un array
-        p=pestaña.pop();
+        p=pestanha.pop();
         p.close(); //cerramos la pestaña
     }
 }
@@ -34,10 +34,10 @@ function miFuncion3_2_1() {
         abro_cierro.value="Close me"; // cambiamos el value del input
     } else {
         pestanha2_1.close();
-        abro_cierro="Push me!"; // cambiamos el value del input
+        abro_cierro.value="Push me!"; // cambiamos el value del input
     } // también se podía usar .innerHTML en vez de .value
 }
-//
+// hacer de otra manera en la que se abre la pestaña y pregunte si quiere cerrarla
 function miFuncion3_3() {
     var result=confirm("Desea abrir la página, abandonará este sitio"); // confirm es un pop ups o ventana emergente para confirmación, en la cual estamos retornando la respuesta en una variable
     if(result==true){
@@ -45,14 +45,13 @@ function miFuncion3_3() {
     }else{
         pestanha3.close();
     }
-
 }
 //
 var contador3_4=0;
 var ventana3_4;
 var intervalo3_4;
 function miFuncion3_4() {
-    ventana3_4 = open('','','width=400,height=200'); // los dos primeros pares de comillas deben ir vacios para evitar un error de "from accessing a cross-origin frame"
+    ventana3_4 = window.open('','','width=400,height=200'); // los dos primeros pares de comillas deben ir vacios para evitar un error de "from accessing a cross-origin frame"
     intervalo3_4 = setInterval(muevete,1000); // llama a la función muevete() y da un intervalo de tiempo
 }
 function muevete() {
@@ -62,7 +61,7 @@ function muevete() {
 	}else{
         ventana3_4.moveBy(Math.floor((Math.random()*100)+1),Math.floor((Math.random()*100)+1));
         // moveBy(deltaX, deltaY) -> mueve la ventana de forma relativa a su posición
-        // se puede usar moveTo(x,y) -> mueve a una coordenada específica, por lo que veo no se desplaza en su eje x 
+        // se puede usar moveTo(x,y) -> mueve a una coordenada específica, a veces no se por que sólo se desplaza en su eje x ó no 
     }
 }
 //
@@ -73,7 +72,7 @@ var incremetar3_5=5;
 function miFuncion3_5() {
     // console.log(cargador3_5.style.width);
     if(cargador3_5.style.width=='0px'){
-        intervalo3_5=setInterval(cargando,50); // se crea el intervalo que llama a la función cargando()
+        intervalo3_5=setInterval(cargando,100); // se crea el intervalo que llama a la función cargando()
     }
 }
 function cargando() {
@@ -95,4 +94,11 @@ function cargando() {
 		cargador3_5.style.backgroundColor ="#F6AA1C";
 		clearInterval(intervalo3_5); // cuando llega a 100 se detiene 
 	}
+}
+//
+var ventana3_6a;
+var ventana3_6b;
+function miFuncion3_6() {
+    ventana3_6a = window.open("", "", "width=200, height=200,toolbar=no,location=0,");
+    ventana3_6b = window.open("https://www.silvagomez.com", "", "width=800, height=500, status=no, resizable=no");
 }
