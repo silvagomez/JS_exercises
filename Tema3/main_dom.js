@@ -102,3 +102,32 @@ function miFuncion3_6() {
     ventana3_6a = window.open("", "", "width=200, height=200,toolbar=no,location=0,");
     ventana3_6b = window.open("https://www.silvagomez.com", "", "width=800, height=500, status=no, resizable=no");
 }
+//
+function miFuncion3_7() {
+    var respuesta3_7=confirm("Desea abandonar este sitio");
+    if(respuesta3_7==true){
+        var url3_7=prompt("Ingrese la página a la que quiere ir");
+        var ventana3_7=(window.open('http://www.'+url3_7,'_self'));
+    }
+}
+//
+var iframe3_8=document.getElementById('ruta3_8'); // recogo en una variable todo el iframe
+iframe3_8.style.display="none";
+function miFuncion3_8() {
+    url3_8 = document.getElementById('url3_8').value; // recogo en una variable el contenido
+    iframe3_8.style.display="block";
+    // console.log(iframe3_8);
+    iframe3_8.src="http://www."+url3_8;
+}
+//
+function miFuncion3_9() {
+    
+}
+//
+function miFuncion3_10() {
+    alert(document.getElementById('Hyeri1').src); // a través del id que es único
+    alert(document.getElementsByName('Hyeri2')[0].src); // a través de name, pueden haber varias etiquetas con el mismo name por eso indicamos la posición que buscamos en el array
+    alert(document.getElementsByClassName('Hyeri3')[0].src); // a través de className, pueden haber varias etiquetas con el mismo className por eso indicamos la posición que buscamos en el array
+    alert(document.getElementsByTagName('img')[0].src); // a través de tagName, pueden haber varias etiquetas del mismo tipo por eso indicamos la posición que buscamos en el array
+    alert(document.images[0].src); // a través de todas las images indicando su posición en el array
+}
