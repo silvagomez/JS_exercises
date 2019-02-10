@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main_repaso.js"></script>
+    <style>
+        body{
+            margin: 0 auto;;
+            width: 70%;
+            font-family: sans-serif;
+            direction: ltr;
+            line-height: 1.5;
+            /* text-align: justify; */
+        }
+        main{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 40px;
+            }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>EJERCICIOS REPASO EXAMEN</h1>
+        <h3>Ejercicio 1</h3>
+        <p>
+            Al pusar un botón, mostrar una ventana con el mensaje hola mundo -> llamando a una función definida en otro fichero.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion1()">
+        <br>
+        -----
+        <h3>Ejercicio 2</h3>
+        <p>
+            Al pusar un botón, mostrar una ventana con el que indique si el número introducido en un input tipo number es divisible o no entre 2. Si al pulsar el botón no hay  un número en el input aparecera el mensaje "Se debe introducir un número".
+        </p>
+        <input type="number" id="input_ejer2">
+        <br>
+        <input type="submit" value="Aprétame" onclick="miFuncion2()">
+        <br>
+        -----
+        <h3>Ejercicio 3</h3>
+        <p>
+            Al pusar un botón, mostrar los números impares del 1 al 100 en un textarea.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion3()">
+        <br>
+        <textarea id="text_area_ejer3" cols="100" rows="2"></textarea>
+        <br>
+        -----
+        <h3>Ejercicio 4</h3>
+        <p>
+            Definir el siguiente array:<br>
+            var alumnos = ["Sanchez", "Sanchez", "Lopez", "Cuesta", "Alvarez", "Zambrano", "Sevilla", "Alvarez", "Cuesta", "Alvarez", "Sevilla", "Lopez", "Jimenez"]; <br>
+            A continuación ordernar el array alfabéticamente e indentificar los nombres repetidos. Posteriormente, se tendrá que mostrar por pantalla los nombres repetidos y el número de veces que estos se repiten.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion4()">
+        <br>
+        <p id="p_ejer4"></p>
+        <br>
+        -----
+        <h3>Ejercicio 5</h3>
+        <p>
+            Definir el siguiente array:<br>
+            var numeros = [4,0,3,4,7,3,5,8,1,8,8,0,2,3,1,2,5,7,3,2,5,1];<br>
+            Buscar en dicho array los números 5,6,8 y 13. En caso de encontrarse, deberá de indicarse la posición del mismo en caso contrario, se debe de visualizar un mensaje indicando que ese número no existe
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion5()">
+        <br>
+        <p id="p_ejer5"></p>
+        <br>
+        -----
+        <h3>Ejercicio 6</h3>
+        <p>
+            Definir el siguiente array: <br>
+            var numeros = [4,0,3,4,7,3,5,8,1,8,8,0,2,3,1,2,5,7,3,2,5,1]; <br>
+            A continuación, generar otro array con todos los números impares ordenados seguidos de todos los pares también ordenados.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion6()">
+        <br>
+        <p id="p_ejer6"></p>
+        <br>
+        -----
+        <h3>Ejercicio 7</h3>
+        <p>
+            Definir el siguiente array: <br>
+            var dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']; <br>
+            A continuación, visualizar cada uno de los elementos del array con la primera letra en minuscula.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion7()">
+        <br>
+        <p id="p_ejer7"></p>
+        <br>
+        -----
+        <h3>Ejercicio 8</h3>
+        <p>
+            Definir el siguiente array: <br>
+            var numeros = [43,0,34,4,743,-45,3,5,8,13,8,344,0,23,3,1233,2,5,734,3,2234,5,1]; <br>
+            A continuación, ordenarlo aplicando el método de la burbuja(de manera inversa, es decir, de mayor a menor) y visualizarlo.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion8()">
+        <br>
+        <p id="p_ejer8"></p>
+        <br>
+        -----
+        <h3>Ejercicio 9</h3>
+        <p>
+            Definir el siguiente array: <br>
+            var numeros=[43,0,34,4,743,-45,3,5,8,13,8,344,0,23,3,1233,2,5,734,3,2234,5,1]; <br>
+            A continuación, ordenarlo buscando el mayor, añadiéndolo al array ordenado y eliminándolo del original hasta que el array original quede vacío.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion9()">
+        <br>
+        <p id="p_ejer9"></p>
+        <br>
+        -----
+        <h3>Ejercicio 10</h3>
+        <p>
+            Crear un objeto "Persona", el cual tendrá 5 propiedades (Nombre,Apellido,DNI,Dirección,Teléfono) y 4 métodos, los cuales tendrán que mostrar mediante un alert el nombre, el apellido, el DNI, y la direccion de la persona.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion10()">
+        <br>
+        -----
+        <h3>Ejercicio 11</h3>
+        <p>
+            Crear un objeto "Curso", el cual tendrá 5 propiedades (Nombre, Código, Tutor, num alumnos, Año) y 3 métodos, los cuales tendrán que mostrar mediante un alert el código, el num de alumnos y el año.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion11()">
+        <br>
+        -----
+        <h3>Ejercicio 12</h3>
+        <p>
+            Crea un array de las asignaturas del 2º curso del DAW usando la notación tradicional de los arrays.(Notación por puntos).
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion12()">
+        <br>
+        <p id="p_ejer12"></p>
+        <br>
+        -----
+        <h3>Ejercicio 13</h3>
+        <p>
+            Crea un array de las asignaturas del 1º curso de desarrollo de aplicaciones Web usando la notación JSON
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion13()">
+        <br>
+        <p id="p_ejer13"></p>
+        <br>
+        -----
+        <h3>Ejercicio 14</h3>
+        <p>
+            Crear una función constructora, en la que se deberá de crear un alumno (con 4 propiedades: Nombre, Apellido, DNI, Curso) y crear 3 métodos, los cuales tendrán que mostrar el nombre, el apellido y el DNI.
+        </p>
+        <input type="submit" value="Aprétame" onclick="miFuncion14()">
+        <br>
+        <p id="p_ejer14"></p>
+        <br>
+    </main>
+</body>
+</html>
